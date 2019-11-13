@@ -13,3 +13,13 @@ org.db packages are annotation packages that combine gene IDs (Entrez, Locus Tag
   BiocManager::install("AnnotationForge")
   ```
   - hit enter and save workspace when asked
+- install GO.db:
+  - open R
+  - paste:
+  ```
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+      install.packages("BiocManager")
+
+  BiocManager::install("GO.db")
+  ```
+  - hit enter and save workspace when asked
