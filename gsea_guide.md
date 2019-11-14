@@ -37,3 +37,6 @@ org.db packages are annotation packages that combine gene IDs (Entrez, Locus Tag
                        species = "Staphylococcusaureus")
 
   ```
+
+# KEGG Genome ID
+for a complete list of supported organism ids go to http://www.genome.jp/kegg/catalog/org_list.html 
