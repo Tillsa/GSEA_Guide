@@ -23,3 +23,17 @@ org.db packages are annotation packages that combine gene IDs (Entrez, Locus Tag
   BiocManager::install("GO.db")
   ```
   - hit enter and save workspace when asked
+- run the following R code (write to a script and run with Rscript)  
+  the tax_id (taxonomy ID) can be searched at [https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/)
+
+  ```
+  library('AnnotationForge')
+  makeOrgPackageFromNCBI(version = "0.1",
+                       author = "Till Sauerwein <till-sauerwein@uni-wuerzburg.de>",
+                       maintainer = "Till Sauerwein <till-sauerwein@uni-wuerzburg.de>",
+                       outputDir = "data",
+                       tax_id = "93061",
+                       genus = "Staphylococcus",
+                       species = "Staphylococcusaureus")
+
+  ```
