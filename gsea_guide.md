@@ -29,8 +29,8 @@ org.db packages are annotation packages that combine gene IDs (Entrez, Locus Tag
   ```
   library('AnnotationForge')
   makeOrgPackageFromNCBI(version = "0.1",
-                       author = "Till Sauerwein <till-sauerwein@uni-wuerzburg.de>",
-                       maintainer = "Till Sauerwein <till-sauerwein@uni-wuerzburg.de>",
+                       author = "Till Sauerwein <till-sauerwein@email.de>",
+                       maintainer = "Till Sauerwein <till-sauerwein@email.de>",
                        outputDir = "data",
                        tax_id = "93061",
                        genus = "Staphylococcus",
