@@ -40,3 +40,15 @@ org.db packages are annotation packages that combine gene IDs (Entrez, Locus Tag
 
 # KEGG Genome ID
 for a complete list of supported organism ids go to http://www.genome.jp/kegg/catalog/org_list.html 
+
+# install clusterprofiler
+ - open R
+  - paste:
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("clusterProfiler")
+
+```
+ - hit enter and save workspace when asked
